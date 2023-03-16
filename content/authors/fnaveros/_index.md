@@ -1,0 +1,77 @@
+---
+# Display name
+title: Francisco Naveros
+
+# Username (this should match the folder name)
+authors:
+  - fnaveros
+
+# Is this the primary user of the site?
+superuser: false
+
+# Role/position
+role: Postdoctoral Researcher
+
+# Organizations/Affiliations
+organizations:
+  - name: University of Granada
+    url: 'https://www.ugr.es/'
+
+# Short bio (displayed in user profile at end of posts)
+bio: PhD student at the Applied Computational Neuroscience Research Group at the University of Granada.
+
+interests:
+  - Spiking Neuronal Networks Simulation
+  - Motor control
+  - High-performance computation
+  - Robotics
+
+education:
+  courses:
+    - course: PhD in Computational Neuroscience
+      institution: University of Granada
+      year: 2017
+    - course: MSc in Computer Architecture and Networks
+      institution: University of Granada
+      year: 2012
+    - course: MSc in Telecommunication Engineering
+      institution: University of Granada
+      year: 2011
+
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:fnaveros@ugr.es'
+#  - icon: twitter
+#    icon_pack: fab
+#    link: https://twitter.com/GeorgeCushen
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=lyL3mVoAAAAJ
+#  - icon: github
+#    icon_pack: fab
+#    link: https://github.com/gcushen
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - Researchers
+---
+
+I received my M.S in Telecomunication Engineering from the University of Granada (Spain) in 2011. In December 2011 I officially joined to the University of Granada with a National Grant as a researcher of the European Project TOMSY. I also received my M.S. in Computer Architecture and Networks from the University of Granada in 2012. Finally, I received my Doctorate from the University of Granada in 2017 in Computational neuroscience. I am currently now a junior postdoctoral researcher at the Computational Neuroscience and Neurorobotics Lab of the University of Granada.
+
+From 2012 to 2014, I participated in an EU project related to adaptive learning mechanisms and bio-inspired control REALNET. From 2014 to the present, I have been participating in the Human Brain Project (HBP); a ten-year, large-scale European research initiative whose goal is to better understand the human brain and its diseases and ultimately to emulate its computational capabilities. In 2016 I moved to Dr. Arleo's lab in Paris for a period of six months.
+
+My research interests include the simulation of spiking neural networks in real-time for embodiment experiments. More concretely, I am interested in the cerebellum, a small brain centre tightly related with the coordination of movements. Our research group has developed a cerebelar model able to perform embodiment experiments with simulated and real robots in real-time, mimicking the way the brain controls our bodies. This kind of embodiment experiments require from specializes tools able to perform the whole simulation in real-time. During my PhD degree I have been focussed in the development of EDLUT, a spiking neural network simulator integrating event-driven and time-driven computation schemes using parallel CPU-GPU co-processing. This simulator has been specially designed to perform embodiment experiments in real-time.

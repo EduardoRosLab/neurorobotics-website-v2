@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: earth
   theme_night:
   font: native
   font_size: L
@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'ACN UGR'
+    description: 'Applied Computational Neuroscience Research Group at UGR'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -31,30 +31,43 @@ marketing:
 
 header:
   navbar:
+    # Choose a navigation block
+    block: navbar
+    # Display the navigation bar?
     enable: true
+    # Align menu links: left (l), center (c), or right (r)
     align: r
+    # Display your site title or `assets/media/logo*` image in the nav bar?
     show_logo: true
+    # Show a language chooser (if you have translated your site content)?
+    #show_translations: true
+    # If `show_translations` is enabled, do you wish to display the current language name?
     show_language: false
+    # Let the user override the default light/dark mode of your theme?
     show_day_night: true
+    # Let the user search from the nav bar?
     show_search: true
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
     highlight_active_link: false
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} ACN Group. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  # For multilingual sites, show a language chooser in the footer?
+  show_translations: false
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: 'Mon, 02 Jan 2006'
+  time_format: '15:04'
   address_format: en-us
 
 # Site features
@@ -96,9 +109,9 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+    provider: 'google'
+    api_key: 'AIzaSyCLfb6tJaaA4jB1SZU3gzwReUfMher1qQw'
+    zoom:
 
 # Extensions
 
