@@ -1,5 +1,5 @@
 ---
-title: NEUSEQBOT: NEUro cerebellar recurrent network for motor SEQuence learning in neuroroBOTics
+title: NEUSEQBOT - NEUro cerebellar recurrent network for motor SEQuence learning in neuroroBOTics
 summary: The NEURSEQBOT project is a Marie Skłodowska-Curie Actions founded by the European Commission (MSCA-IF-2019 891774). This multidisciplinary project studies in mice, reproduces with computational models, and applies in neurorobotics experiments how recurrent projections in the cerebellum can help with motor sequence learning.
 
 tags:
