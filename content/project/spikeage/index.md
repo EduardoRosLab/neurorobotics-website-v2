@@ -1,5 +1,5 @@
 ---
-title: SPIKEAGE - Cerebellar Spiking Modelling Accounting for Human Ageing Degradation in Motor Adaptation"
+title: SPIKEAGE - Cerebellar Spiking Modelling Accounting for Human Ageing Degradation in Motor Adaptation
 summary: The SPIKEAGE project is a national Spanish project funded by the Spanish National Research Agency SPIKEAGE(MICINN-PID2020-113422G A-I00) ref (MCIN/ AEI/10.13039/501100011033). This project studies ageing in the cerebellum by following a multidisciplinary holistic approach.
 
 tags:

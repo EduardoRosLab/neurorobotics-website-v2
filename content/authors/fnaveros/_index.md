@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.ugr.es/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD student at the Applied Computational Neuroscience Research Group at the University of Granada.
+bio: Senior postdoc at the Applied Computational Neuroscience Research Group at the University of Granada.
 
 interests:
   - Spiking Neuronal Networks Simulation
@@ -70,8 +70,10 @@ user_groups:
   - Researchers
 ---
 
-I received my M.S in Telecomunication Engineering from the University of Granada (Spain) in 2011. In December 2011 I officially joined to the University of Granada with a National Grant as a researcher of the European Project TOMSY. I also received my M.S. in Computer Architecture and Networks from the University of Granada in 2012. Finally, I received my Doctorate from the University of Granada in 2017 in Computational neuroscience. I am currently now a junior postdoctoral researcher at the Computational Neuroscience and Neurorobotics Lab of the University of Granada.
+I received my M.S in Telecomunication Engineering from the University of Granada (UGR), Spain in 2011. In December 2011 I officially joined to the UGR with a National Grant as a researcher of the European Project TOMSY. I also received my M.S. in Computer Architecture and Networks from the UGR in 2012. Finally, I received my Doctorate from the UGR in 2017 in Computational neuroscience. I am currently now a senior postdoctoral researcher at the Computational Neuroscience and Neurorobotics Lab of the UGR.
 
-From 2012 to 2014, I participated in an EU project related to adaptive learning mechanisms and bio-inspired control REALNET. From 2014 to the present, I have been participating in the Human Brain Project (HBP); a ten-year, large-scale European research initiative whose goal is to better understand the human brain and its diseases and ultimately to emulate its computational capabilities. In 2016 I moved to Dr. Arleo's lab in Paris for a period of six months.
+From 2012 to 2014, I participated in an EU project related to adaptive learning mechanisms and bio-inspired control REALNET. From 2014 to the 2020, I participated in the Human Brain Project (HBP); a ten-year, large-scale European research initiative whose goal was to better understand the human brain and its diseases and ultimately to emulate its computational capabilities. In 2016 I moved to Dr. Arleo's lab in Paris for a period of six months. In 2020 I obtained a possition as assistant professor in the Polytechnique University of Madrid. In 2021 I moved to the Baylor College of Medicine (BCM), in Houston, Texas, US, with a Marie Skłodowska-Curie Action (MSCA) global fellowship. After the firsts two years of the project, I returned to the UGR, where I'm currently working.
 
 My research interests include the simulation of spiking neural networks in real-time for embodiment experiments. More concretely, I am interested in the cerebellum, a small brain centre tightly related with the coordination of movements. Our research group has developed a cerebelar model able to perform embodiment experiments with simulated and real robots in real-time, mimicking the way the brain controls our bodies. This kind of embodiment experiments require from specializes tools able to perform the whole simulation in real-time. During my PhD degree I have been focussed in the development of EDLUT, a spiking neural network simulator integrating event-driven and time-driven computation schemes using parallel CPU-GPU co-processing. This simulator has been specially designed to perform embodiment experiments in real-time.
+
+Additionally, during my two year stay at BCM I also performed multiple experimental studies in mice. Using different Eye Blink Conditioning (EBC) experiments in genetically modified mice, I studied how the cerebellum is able to generate sequences of body movements
