@@ -67,7 +67,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Faculty
 ---
 
 I am a senior postdoctoral researcher with the [Computer Vision and Robotics Lab](http://www.ugr.es/~cvrlab/) of the University of Granada. My work has focused on real-time low-latency hardware implementations of computer vision methods such as motion estimation, depth, or visual attention applied to advanced driving assistance systems.

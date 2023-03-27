@@ -66,7 +66,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Faculty
 ---
 
 I am an associate professor in computer architecture, senior researcher at the Computational Neuroscience and Neurorobotics Lab and principal investigator of the VALERIA lab of the University of Granada. My research interests include the creation of computational models to gain knowledge on how engineering and natural processes evolve and robotic control.

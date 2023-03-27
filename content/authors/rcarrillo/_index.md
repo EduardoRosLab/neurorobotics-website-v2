@@ -70,7 +70,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Faculty
 ---
 
 Richard R. Carrillo is a postodoctoral fellow in the Research Center for Information and Communications Technologies of the University of Granada (CITIC-UGR). His research interests include computational neuroscience and efficient network-simulation methods, with a main focus on real-time simulation of biologically-inspired neural networks and its application to robot control.

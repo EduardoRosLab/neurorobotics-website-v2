@@ -66,7 +66,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Faculty
 ---
 
 Dr. Eduardo Ros received the Ph.D. degree in 1997. He is currently Full Professor at the [Department of Computer Engineering, Automation and Robotics](https://icar.ugr.es/) at the [University of Granada](https://www.ugr.es). He received the Andalucia’s award for best young researchers in 2002. He has published more than 85 papers on international journals. He has three patents under exploitation. He is also co-founder and involved in [Seven Solutions](http://sevensols.com/) technology based enterprise.
