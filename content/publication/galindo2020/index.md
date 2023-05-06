@@ -1,19 +1,19 @@
 ---
 title: 'Simulation, visualization and analysis tools for pattern recognition assessment with spiking neuronal networks'
 authors:
-  - "Sergio E. Galindo"
-  - "Pablo Toharia"
-  - "Oscar D. Robles"
+  - "S.E. Galindo"
+  - "P. Toharia"
+  - "O.D. Robles"
   - eros
-  - "Luis Pastor"
+  - "L. Pastor"
   - jgarrido
 
 author_notes:
-date: '2020-03-13T17:44:35'
+date: '2020-03-13T17:44:35+01:00'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2020-03-13T00:00:00Z'
+publishDate: '2020-03-13T17:44:35+01:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -35,12 +35,13 @@ tags:
   - Visualization
   - Pattern Recognition
   - Learning
+
 featured: false
 
 links:
  - name: "Journal"
    url: "https://doi.org/10.1016/j.neucom.2020.02.114"
-url_pdf: "https://arxiv.org/abs/2003.06343"
+url_pdf: 'https://arxiv.org/abs/2003.06343'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -5,7 +5,7 @@ authors:
   - fnaveros
   - rcarrillo
   - eros
-  - "Angelo Arleo"
+  - "A. Arleo"
 
 author_notes:
 date: '2019-02-25T17:44:35'

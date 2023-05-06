@@ -1,72 +1,73 @@
-+++
-title = "Musculoskeletal Robots: Scalability in Neural Control"
-date = 2016-08-16T17:44:35+01:00
-draft = false
+---
+title: 'Musculoskeletal Robots. Scalability in Neural Control'
+authors:
+  - "C. Richter"
+  - "S. Jentzsch"
+  - "R. Hostettler"
+  - jgarrido
+  - eros
+  - "A. Knoll"
+  - "F. Röhrbein"
+  - "P. van der Smagt"
+  - "J. Conradt"
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Christoph Richter", "Sören Jentzsch", "Rafael Hostettler", "Jesús A. Garrido", "Eduardo Ros", "Alois Knoll", "Florian Röhrbein", "Patrick van der Smagt", "Jörg Conradt"]
+author_notes:
+date: '2016-08-16T17:44:35'
+doi: ''
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2016-08-16T17:44:35'
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
 
-# Publication name and optional abbreviated version.
-publication = "IEEE Robotics and Automation Magazine"
-publication_short = "IEEE Robot. Autom. Mag"
+# Publication name and optional abbreviated publication name.
+publication: "IEEE Robotics and Automation Magazine"
+publication_short: "IEEE Robot. Autom. Mag"
 
-# Abstract and optional shortened version.
-abstract = "Anthropomimetic robots sense, behave, interact, and feel like humans. By this definition, they require human-like physical hardware and actuation but also brain-like control and sensing. The most self-evident realization to meet those requirements would be a human-like musculoskeletal robot with a brain-like neural controller. While both musculoskeletal robotic hardware and neural control software have existed for decades, a scalable approach that could be used to build and control an anthropomimetic human-scale robot has not yet been demonstrated. Combining Myorobotics, a framework for musculoskeletal robot development, with SpiNNaker, a neuromorphic computing platform, we present the proof of principle of a system that can scale to dozens of neurally controlled, physically compliant joints. At its core, it implements a closed-loop cerebellar model that provides real-time, low-level, neural control at minimal power consumption and maximal extensibility. Higher-order (e.g., cortical) neural networks and neuromorphic sensors like silicon retinae or cochleae can be incorporated."
-abstract_short = ""
+abstract: "Anthropomimetic robots sense, behave, interact, and feel like humans. By this definition, they require human-like physical hardware and actuation but also brain-like control and sensing. The most self-evident realization to meet those requirements would be a human-like musculoskeletal robot with a brain-like neural controller. While both musculoskeletal robotic hardware and neural control software have existed for decades, a scalable approach that could be used to build and control an anthropomimetic human-scale robot has not yet been demonstrated. Combining Myorobotics, a framework for musculoskeletal robot development, with SpiNNaker, a neuromorphic computing platform, we present the proof of principle of a system that can scale to dozens of neurally controlled, physically compliant joints. At its core, it implements a closed-loop cerebellar model that provides real-time, low-level, neural control at minimal power consumption and maximal extensibility. Higher-order (e.g., cortical) neural networks and neuromorphic sensors like silicon retinae or cochleae can be incorporated."
+# Summary. An optional shortened abstract.
+summary:
 
-# Featured image thumbnail (optional)
-image_preview = ""
+tags:
+  - Cerebellum
+  - Myorobotics
+  - SpiNNaker
+featured: false
 
-# Is this a selected publication? (true/false)
-selected = false
-
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["cerebsensing"]
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Links (optional).
-url_pdf = "richter2016.pdf"
-url_preprint = "https://arxiv.org/abs/1601.04862"
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
-url_custom = [{name = "Journal", url = "http://ieeexplore.ieee.org/document/7553551/ "}]
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
-
-# Does this page contain LaTeX math? (true/false)
-math = false
-
-# Does this page require source code highlighting? (true/false)
-highlight = true
+links:
+ - name: "Journal"
+   url: "http://ieeexplore.ieee.org/document/7553551/"
+url_pdf: "richter2016.pdf"
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ''
+#  preview_only: false
 
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: ['cerebsensing']
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides:
+---

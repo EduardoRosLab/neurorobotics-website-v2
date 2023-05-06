@@ -2,10 +2,10 @@
 title: 'An integrative methodology based on protein-protein interaction networks for identification and functional annotation of disease-relevant genes applied to channelopathies'
 authors:
   - mmarin
-  - "Francisco J. Esteban"
-  - "Hilario Ramírez-Rodrigo"
+  - "F.J. Esteban"
+  - "H. Ramírez-Rodrigo"
   - eros
-  - "María J. Sáez-Lara"
+  - "M.J. Sáez-Lara"
 
 author_notes:
 date: '2019-11-12T17:44:35'

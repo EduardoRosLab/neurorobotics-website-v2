@@ -3,9 +3,9 @@ title: 'Computational epidemiology study of homeostatic compensation during sens
 authors:
   - nluque
   - fnaveros
-  - "Denis Sheynikhovich"
+  - "D. Sheynikhovich"
   - eros
-  - "Angelo Arleo"
+  - "A. Arleo"
 
 author_notes:
 date: '2022-02-01T17:44:35'

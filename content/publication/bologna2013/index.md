@@ -1,72 +1,70 @@
-+++
-title = "A closed-loop neurobotic system for fine touch sensing"
-date = 2013-10-09T17:44:35+01:00
-draft = false
+---
+title: 'A closed-loop neurobotic system for fine touch sensing'
+authors:
+  - 'L.L. Bologna'
+  - 'J. Pinoteau'
+  - 'J.B. Passot'
+  - jgarrido
+  - 'J. Vogel'
+  - eros
+  - 'A. Arleo'
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Luca L. Bologna", "Jeremi Pinoteau", "Jean B. Passot", "Jesús A. Garrido", "Jörn Vogel", "Eduardo Ros", "Angelo Arleo"]
+
+author_notes:
+date: '2013-08-01T17:44:35+01:00'
+doi: ''
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2013-08-01T17:44:35+01:00'
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
 
-# Publication name and optional abbreviated version.
-publication = "Journal of Neural Engineering"
-publication_short = "J. Neural Eng."
+# Publication name and optional abbreviated publication name.
+publication: 'Journal of Neural Engineering'
+publication_short: 'J. Neural Eng.'
 
-# Abstract and optional shortened version.
-abstract = "Objective. Fine touch sensing relies on peripheral-to-central neurotransmission of somesthetic percepts, as well as on active motion policies shaping tactile exploration. This paper presents a novel neuroengineering framework for robotic applications based on the multistage processing of fine tactile information in the closed action–perception loop. Approach. The integrated system modules focus on (i) neural coding principles of spatiotemporal spiking patterns at the periphery of the somatosensory pathway, (ii) probabilistic decoding mechanisms mediating cortical-like tactile recognition and (iii) decision-making and low-level motor adaptation underlying active touch sensing. We probed the resulting neural architecture through a Braille reading task. Main results. Our results on the peripheral encoding of primary contact features are consistent with experimental data on human slow-adapting type I mechanoreceptors. They also suggest second-order processing by cuneate neurons may resolve perceptual ambiguities, contributing to a fast and highly performing online discrimination of Braille inputs by a downstream probabilistic decoder. The implemented multilevel adaptive control provides robustness to motion inaccuracy, while making the number of finger accelerations covariate with Braille character complexity. The resulting modulation of fingertip kinematics is coherent with that observed in human Braille readers. Significance. This work provides a basis for the design and implementation of modular neuromimetic systems for fine touch discrimination in robotics."
-abstract_short = ""
+abstract: "We present a neuro-inspired system for the investigation of fine dynamic haptic discrimination for neurorobotic and neuroprosthetic applications. A Braille reading task is adopted as case study. First, tactile inputs are encoded at the level of primary afferents mimicking human mechanoreceptors. Then, a network of simulated second-order neurones processes these primary signals prior to their transmission to a downstream classifier. The latter estimates the likelihood distribution of all Braille characters which is used to determine the letter being read. We also investigate how this distribution could be used to regulate the fingertip acceleration to maximise Braille-reading performances. We employ the spiking neural network paradigm to model first- and second-order neural responses, and apply an information theoretical analysis to measure the neurotransmission reliability of the spiking patterns from peripheral to more “central” areas of the system. Our results show that the firing patterns of first- and second-order responses convey enough information to achieve an offline perfect discrimination of the entire Braille alphabet as rapidly as 250 ms after the occurrence of the first spike. Furthermore, 89% of the scanned characters are correctly recognised during an online Braille reading task at constant velocity. Finally, we show that the class probability distributions obtained during reading, can be used to optimise the scanning velocity."
 
-# Featured image thumbnail (optional)
-image_preview = ""
+# Summary. An optional shortened abstract.
+summary:
 
-# Is this a selected publication? (true/false)
-selected = false
+tags:
+featured: false
 
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Links (optional).
-url_pdf = "bologna2013.pdf"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
-url_custom = [{name = "Journal", url = "http://iopscience.iop.org/article/10.1088/1741-2560/10/4/046019 "}]
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
-
-# Does this page contain LaTeX math? (true/false)
-math = false
-
-# Does this page require source code highlighting? (true/false)
-highlight = true
+links:
+ - name: "Journal"
+   url: "http://iopscience.iop.org/article/10.1088/1741-2560/10/4/046019"
+url_pdf: 'bologna2013.pdf'
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ''
+#  preview_only: false
 
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides:
+---

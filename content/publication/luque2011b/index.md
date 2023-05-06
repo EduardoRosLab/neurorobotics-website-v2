@@ -1,72 +1,71 @@
-+++
-title = "Cerebellar input configuration toward object model abstraction in manipulation tasks"
-date = 2011-08-01T17:44:35+01:00
-draft = false
+---
+title: 'Cerebellar input configuration toward object model abstraction in manipulation tasks'
+authors:
+  - nluque
+  - jgarrido
+  - rcarrillo
+  - "O.J.M.D. Coenen"
+  - eros
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Niceto R. Luque", "Jesús A. Garrido", "Ríchard R. Carrillo", "Olivier J.-M.D. Coenen", "Eduardo Ros"]
+author_notes:
+date: '2011-08-01T17:44:35'
+doi: ''
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2011-08-01T00:00:00Z'
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
 
-# Publication name and optional abbreviated version.
-publication = "IEEE Transactions on Neural Networks"
-publication_short = "IEEE Trans. Neural Netw."
+# Publication name and optional abbreviated publication name.
+publication: 'IEEE Transactions on Neural Networks'
+publication_short: 'IEEE Trans. Neural Netw.'
 
-# Abstract and optional shortened version.
-abstract = "It is widely assumed that the cerebellum is one of the main nervous centers involved in correcting and refining planned movement and accounting for disturbances occurring during movement, for instance, due to the manipulation of objects which affect the kinematics and dynamics of the robot-arm plant model. In this brief, we evaluate a way in which a cerebellarlike structure can store a model in the granular and molecular layers. Furthermore, we study how its microstructure and input representations (context labels and sensorimotor signals) can efficiently support model abstraction toward delivering accurate corrective torque values for increasing precision during differentobject manipulation. We also describe how the explicit (objectrelated input labels) and implicit state input representations (sensorimotor signals) complement each other to better handle different models and allow interpolation between two already stored models. This facilitates accurate corrections during manipulations of new objects taking advantage of already stored models."
-abstract_short = ""
+abstract: "It is widely assumed that the cerebellum is one of the main nervous centers involved in correcting and refining planned movement and accounting for disturbances occurring during movement, for instance, due to the manipulation of objects which affect the kinematics and dynamics of the robot-arm plant model. In this brief, we evaluate a way in which a cerebellarlike structure can store a model in the granular and molecular layers. Furthermore, we study how its microstructure and input representations (context labels and sensorimotor signals) can efficiently support model abstraction toward delivering accurate corrective torque values for increasing precision during differentobject manipulation. We also describe how the explicit (objectrelated input labels) and implicit state input representations (sensorimotor signals) complement each other to better handle different models and allow interpolation between two already stored models. This facilitates accurate corrections during manipulations of new objects taking advantage of already stored models."
 
-# Featured image thumbnail (optional)
-image_preview = ""
+# Summary. An optional shortened abstract.
+summary:
 
-# Is this a selected publication? (true/false)
-selected = false
+tags:
+  - Cerebellum
+  - Learning
+  - Spiking Neuronal Networks
 
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
+featured: false
 
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Links (optional).
-url_pdf = "luque2011b.pdf"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
-url_custom = [{name = "Journal", url = "http://ieeexplore.ieee.org/abstract/document/5928419/ "}]
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
-
-# Does this page contain LaTeX math? (true/false)
-math = false
-
-# Does this page require source code highlighting? (true/false)
-highlight = true
+links:
+ - name: "Journal"
+   url: "http://ieeexplore.ieee.org/abstract/document/5928419/"
+url_pdf: 'luque2011b'
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ''
+#  preview_only: false
 
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides:
+---

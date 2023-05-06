@@ -2,7 +2,7 @@
 title: 'Optimization of Efficient Neuron Models With Realistic Firing Dynamics. The Case of the Cerebellar Granule Cell'
 authors:
   - mmarin
-  - "María J. Sáez-Lara"
+  - "M.J. Sáez-Lara"
   - eros
   - jgarrido
 

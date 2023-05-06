@@ -1,73 +1,66 @@
-+++
-title = "Real-time visual saliency architecture for FPGA with top-down attention modulation"
-date = 2016-08-01T17:44:35+01:00
-draft = false
+---
+title: 'Real-time visual saliency architecture for FPGA with top-down attention modulation'
+authors:
+  - fbarranco
+  - 'J. Díaz'
+  - 'B. Pino'
+  - eros
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Francisco Barranco", "Javier Diaz", "Begoña Pino", "Eduardo Ros"]
-    
+author_notes:
+date: '2014-08-01T17:44:35+01:00'
+doi: ''
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2014-08-01T17:44:35+01:00'
+
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
 
-# Publication name and optional abbreviated version.
-publication = "IEEE Transactions on Industrial Informatics"
-publication_short = "IEEE. Trans. on Ind. Inf."
+# Publication name and optional abbreviated publication name.
+publication: 'IEEE Transactions on Industrial Informatics'
+publication_short: 'IEEE. Trans. on Ind. Inf.'
 
-# Abstract and optional shortened version.
-abstract = "Biological vision uses attention to reduce the visual bandwidth simplifying the higher-level processing. This paper presents a model and its hardware real-time architecture in a field programmable gate array (FPGA) to be integrated in a robotic system that emulates this powerful biological process. It is based on the combination of bottom-up saliency and top-down task-dependent modulation. The bottom-up stream is deployed including local energy, orientation, color opponencies, and motion maps. The most novel part of this work is the saliency modulation by two high-level features: 1) optical flow and 2) disparity. Furthermore, the influence of the features may be adjusted depending on the application. The proposed system reaches 180 fps for 640× 480 resolution. Finally, an example shows its modulation potential for driving assistance systems."
-abstract_short = ""
+abstract: "Biological vision uses attention to reduce the visual bandwidth simplifying the higher-level processing. This paper presents a model and its hardware real-time architecture in a field programmable gate array (FPGA) to be integrated in a robotic system that emulates this powerful biological process. It is based on the combination of bottom-up saliency and top-down task-dependent modulation. The bottom-up stream is deployed including local energy, orientation, color opponencies, and motion maps. The most novel part of this work is the saliency modulation by two high-level features: 1) optical flow and 2) disparity. Furthermore, the influence of the features may be adjusted depending on the application. The proposed system reaches 180 fps for 640× 480 resolution. Finally, an example shows its modulation potential for driving assistance systems."
 
-# Featured image thumbnail (optional)
-image_preview = ""
+# Summary. An optional shortened abstract.
+summary:
 
-# Is this a selected publication? (true/false)
-selected = false
+tags:
+featured: false
 
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Links (optional).
-url_pdf = ""
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
-url_custom = [{name = "Journal", url = "http://ieeexplore.ieee.org/abstract/document/6804684/" }]
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
-
-# Does this page contain LaTeX math? (true/false)
-math = false
-
-# Does this page require source code highlighting? (true/false)
-highlight = true
+links:
+ - name: "Journal"
+   url: "http://ieeexplore.ieee.org/abstract/document/6804684/"
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#  focal_point: ''
+#  preview_only: false
 
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
 
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides:
+---

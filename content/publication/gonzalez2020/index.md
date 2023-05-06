@@ -32,6 +32,7 @@ tags:
   - Basal Ganglia
   - Reinforcement Learning
   - Spiking Neuronal Networks
+  
 featured: true
 
 links:
