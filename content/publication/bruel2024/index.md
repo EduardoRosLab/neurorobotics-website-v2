@@ -1,14 +1,14 @@
 ---
 title: 'The spinal cord facilitates cerebellar upper limb motor learning and control; inputs from neuromusculoskeletal simulation'
 authors:
-  - "Alice Bruel"
+  - "A. Bruel"
   - iabadia
-  - "Thibault Collin"
-  - "Icare Sakr"
-  - "Henri Lorach"
+  - "T. Collin"
+  - "I. Sakr"
+  - "H. Lorach"
   - nluque
   - eros
-  - "Auke Ijspeert"
+  - "A. Ijspeert"
 
 author_notes:
 date: '2024-01-08T17:44:35'

@@ -1,7 +1,7 @@
 ---
 title: 'Bidirectional recurrent learning of inverse dynamic models for robots with elastic joints: a real-time real-world implementation'
 authors:
-  - "Brayan Valencia-Vidal"
+  - "B. Valencia-Vidal"
   - eros
   - iabadia
   - nluque
