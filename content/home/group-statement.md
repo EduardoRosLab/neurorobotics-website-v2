@@ -34,6 +34,10 @@ advanced:
 
 The **Applied Computational Neuroscience** (ACN) Group is part of the [Computer Engineering, Automation and Robotics Department](https://icar.ugr.es/) at [University of Granada](https://www.ugr.es). The group is leaded by Prof. Eduardo Ros. Our group develops and uses computational tools to gain understanding on brain information processing and motor control.
 
+{{< youtube aPaLzIzUFgU >}}
+
+<br>
+
 We are experts in simulating neural centres (such as cerebellum, inferior olive, basal ganglia and the visual system) both off-line (in large parallel computers) or in real-time (towards embedded simulations) with a robot on the loop (closed perception-action loops).
 
 Among other potential application domains, rehabilitation, control schemes for robots interacting safely with humans and reverse engineering of human brain system are our focus.
