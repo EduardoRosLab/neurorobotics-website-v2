@@ -68,7 +68,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Faculty
 ---
 
 I received my M.S in Telecomunication Engineering from the University of Granada (UGR), Spain in 2011. In December 2011 I officially joined to the UGR with a National Grant as a researcher of the European Project TOMSY. I also received my M.S. in Computer Architecture and Networks from the UGR in 2012. Finally, I received my Doctorate from the UGR in 2017 in Computational neuroscience. I am currently now an associate professor in the Department of Computer Systems Architecture and Technology at the Polytechnic University of Madrid.

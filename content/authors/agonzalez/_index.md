@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.ugr.es/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD student at the Applied Computational Neuroscience Research Group at the University of Granada.
+bio: Postdoctoral researcher at the Applied Computational Neuroscience Research Group at the University of Granada.
 
 interests:
   - Motor control
@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+    - course: PhD in Computational Neuroscience
+      institution: University of Granada
+      year: 2024
     - course: BSc in Computer Science
       institution: University of Granada
       year: 2017
@@ -66,7 +69,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Researchers
 ---
 
 I am a PhD student at the Applied Computational Neuroscience Research Group of the University of Granada. I hold a degree in Psychology and a second degree in Computer Science. I am MSc in Neuroscience at the University of Granada.

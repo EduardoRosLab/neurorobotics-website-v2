@@ -6,11 +6,11 @@ authors:
   - "E. D'Angelo"
 
 author_notes:
-date: '2013-03-1T17:44:35+01:00'
+date: '2013-03-01T17:44:35+01:00'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2013-03-1T17:44:35+01:00'
+publishDate: '2013-03-01T17:44:35+01:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

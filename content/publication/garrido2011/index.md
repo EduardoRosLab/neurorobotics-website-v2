@@ -4,11 +4,11 @@ authors:
   - jgarrido
 
 author_notes:
-date: '2011-10-1T17:44:35+01:00'
+date: '2011-10-01T17:44:35+01:00'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2011-10-1T17:44:35+01:00'
+publishDate: '2011-10-01T17:44:35+01:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

@@ -11,7 +11,7 @@ date: '2013-10-09T17:44:35+01:00'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2013-10-0917:44:35+01:00'
+publishDate: '2013-10-09T17:44:35+01:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
