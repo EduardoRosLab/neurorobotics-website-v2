@@ -63,7 +63,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - PhD Students
 ---
 
 I received my B.S in Physics and a M.S. in Data Science and Computer Engineering from the University of Granada (Spain) in 2021 and 2022, respectively. My interest in Neuroscience started with my final degree project and a Department Collaboration Grant, which focused on the development of a spiking neural network based on hippocampal circuits in order to study learning and memory in a spatial navigation task.

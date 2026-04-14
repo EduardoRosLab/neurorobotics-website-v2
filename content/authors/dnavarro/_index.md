@@ -64,7 +64,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - PhD Students
 ---
 
 I graduated from Computer Science in 2021 and got a Masters Degree in Data Science in 2022, both at University of Granada. At the beginning of my Masters Degree I joined the Applied Computational Neuroscience (ACN) Group to work on the IMOCO4.E project, applying data science techniques to collaborative robotics.

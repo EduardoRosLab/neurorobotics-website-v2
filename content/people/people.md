@@ -18,10 +18,11 @@ content:
   user_groups:
     - Faculty
     - Researchers
-    - Grad Students
+    - PhD Students
     - Administration
     - Visitors
     - Alumni
+    - Former Researchers
 design:
   show_interests: false
   show_role: true
