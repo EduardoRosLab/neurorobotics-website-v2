@@ -23,6 +23,17 @@ publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: "Robotics and Autonomous Systems"
 publication_short: "Rob. Aut. Sys."
+jcr:
+  verified: true
+  year: 2014
+  jif: 1.256
+  rank: 11
+  category_size: 23
+  quartile: Q2
+  percentile: 54.35
+  q1: false
+  d1: false
+  top3: false
 
 abstract: "Experimental studies of the Central Nervous System (CNS) at multiple organization levels aim at understanding how information is represented and processed by the brain’s neurobiological substrate. The information processed within different neural subsystems is neurocomputed using distributed and dynamic patterns of neural activity. These emerging patterns can be hardly understood by merely taking into account individual cell activities. Studying how these patterns are elicited in the CNS under specific behavioral tasks has become a groundbreaking research topic in system neuroscience. This methodology of synthetic behavioral experimentation is also motivated by the concept of embodied neuroscience, according to which the primary goal of the CNS is to solve/facilitate the body–environment interaction. With the aim to bridge the gap between system neuroscience and biological control, this paper presents how the CNS neural structures can be connected/integrated within a body agent; in particular, an efficient neural simulator based on EDLUT (Ros et al., 2006) has been integrated within a simulated robotic environment to facilitate the implementation of object manipulating closed loop experiments (action–perception loop). This kind of experiment allows the study of the neural abstraction process of dynamic models that occurs within our neural structures when manipulating objects. The neural simulator, communication interfaces, and a robot platform have been efficiently integrated enabling real time simulations. The cerebellum is thought to play a crucial role in human-body interaction with a primary function related to motor control which makes it the perfect candidate to start building an embodied nervous system as illustrated in the simulations performed in this work."
 

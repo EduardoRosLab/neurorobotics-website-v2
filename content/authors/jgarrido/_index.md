@@ -15,6 +15,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Associate professor in Computation technology, senior researcher at the Computational Neuroscience and Neurorobotics Lab and principal investigator of the VALERIA lab of the University of Granada.
+profile_is_pi: true
 
 interests:
   - Virtual Reality

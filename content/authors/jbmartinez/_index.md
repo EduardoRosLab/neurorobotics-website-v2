@@ -19,7 +19,10 @@ interests: []
 education:
   courses: []
 
-social: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:jbmm@ugr.es'
 
 email: ''
 

@@ -19,6 +19,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Associate Professor at the Department of Computer Engineering, Automation and Robotics, Principal Investigator at the Applied Computational Neuroscience Group and the Computer Vision and Robotics Lab of the University of Granada.
+profile_is_pi: true
 
 interests:
   - Smart sensors and IoT
@@ -46,6 +47,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:fbarranco@ugr.es'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=kvipcPUAAAAJ
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen

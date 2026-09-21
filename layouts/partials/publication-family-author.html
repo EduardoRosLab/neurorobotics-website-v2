@@ -1,0 +1,9 @@
+{{/* ACN team members use compact given-name initials, retaining the surname. */}}
+{{ $author := . }}
+{{ $initials := dict "acruz" "A. Cruz" "agonzalez" "Á. González" "dnavarro" "D. Navarro" "eros" "E. Ros" "fbarranco" "F. Barranco" "fnaveros" "F. Naveros" "iabadia" "I. Abadia" "jbmartinez" "J. B. Martínez" "jgarrido" "J. Garrido" "jhelios" "J. H. García Guzmán" "jubago" "J. Ubago" "mmarin" "M. Marín" "mptirado" "M. P. Tirado" "nluque" "N. R. Luque" "rcarrillo" "R. R. Carrillo" "Alberto Antonietti" "A. Antonietti" "Alessandra Pedrocchi" "A. Pedrocchi" "Claudia Casellato" "C. Casellato" "Egidio D'Angelo" "E. D'Angelo" "Francesca Prestori" "F. Prestori" }}
+{{ $authorPage := site.GetPage (printf "/authors/%s" $author) }}
+{{ with $authorPage }}
+  <a href="{{ .RelPermalink }}">{{ with index $initials $author }}{{ . }}{{ else }}{{ .Title }}{{ end }}</a>
+{{ else }}
+  {{ with index $initials $author }}{{ . }}{{ else }}{{ humanize $author }}{{ end }}
+{{ end }}

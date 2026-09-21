@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{ $publications := .Pages.ByDate.Reverse }}
+{{ $themes := slice
+  (dict "name" "Neurobotics & Embodied Intelligence" "description" "Titles about robots, motor control, sensorimotor learning, manipulation, haptics, and embodied behaviour." "key" "neurobotics")
+  (dict "name" "Computational Neuroscience" "description" "Titles about neural circuits, cerebellar models, plasticity, neuronal dynamics, and brain function." "key" "computational")
+  (dict "name" "AI & Neuromorphic Computing" "description" "Titles about artificial intelligence, machine learning, FPGA/hardware, vision, and event-driven computing." "key" "neuromorphic")
+}}
+{{ $groups := newScratch }}
+{{ range $themes }}{{ $groups.Set .key (slice) }}{{ end }}
+{{ range $publications }}
+  {{ $paper := . }}{{ $title := lower $paper.Title }}{{ $area := "computational" }}
+  {{ with $paper.Params.publication_family }}{{ if in (slice "neurobotics" "computational" "neuromorphic") . }}{{ $area = . }}{{ else if eq . "ai" }}{{ $area = "neuromorphic" }}{{ end }}{{ end }}
+  {{ if eq $area "computational" }}
+    {{ if or (in $title "robot") (in $title "motor control") (in $title "sensorimotor") (in $title "vestibulo") (in $title "manipulation") (in $title "braille") (in $title "haptic") (in $title "compliance") (in $title "musculoskeletal") (in $title "eye blink") (in $title "driving assistance") }}{{ $area = "neurobotics" }}
+    {{ else if or (in $title "artificial intelligence") (in $title "machine learning") (in $title "deep learning") (in $title "fpga") (in $title "hardware") (in $title "image processing") (in $title "visual navigation") (in $title "neuromorphic") (in $title "event-driven") (in $title "event driven") (in $title "classifier") (in $title "computing platform") (in $title "reconfigurable") }}{{ $area = "neuromorphic" }}{{ end }}
+  {{ end }}
+  {{ $groups.Set $area (($groups.Get $area) | append $paper) }}
+{{ end }}
+
+<div class="publication-archive" data-publication-archive>
+  <div class="publication-archive__shell">
+    <aside class="publication-archive__rail">
+      <h1>{{ .Title }}</h1>
+      <p>Explore our research by theme. Each entry is assigned from its title; within each family, publications are listed from newest to oldest.</p>
+      <nav class="publication-archive__families" aria-label="Publication families">
+        {{ range $themes }}<button type="button" data-publication-family="{{ .key }}"><span>{{ len ($groups.Get .key) }}</span>{{ .name }}</button>{{ end }}
+      </nav>
+      <div class="publication-archive__stepper"><button type="button" data-publication-move="-1">← Back</button><button type="button" data-publication-move="1">Forward →</button></div>
+    </aside>
+    <main class="publication-archive__content">
+      {{ range $themes }}
+        <section class="publication-archive__panel" data-publication-panel="{{ .key }}" aria-labelledby="publication-family-{{ .key }}">
+          <header><p class="publication-archive__eyebrow">Selected family · {{ len ($groups.Get .key) }} papers</p><h2 id="publication-family-{{ .key }}">{{ .name }}</h2><p>{{ .description }}</p></header>
+          <div class="publication-archive__timeline">
+            {{ range $groups.Get .key }}
+              {{ $paper := . }}{{ $authors := $paper.Params.authors }}
+              {{ $yearTone := "2000" }}{{ if ge $paper.Date.Year 2025 }}{{ $yearTone = "2025" }}{{ else if ge $paper.Date.Year 2020 }}{{ $yearTone = "2020" }}{{ else if ge $paper.Date.Year 2015 }}{{ $yearTone = "2015" }}{{ else if ge $paper.Date.Year 2010 }}{{ $yearTone = "2010" }}{{ else if ge $paper.Date.Year 2005 }}{{ $yearTone = "2005" }}{{ end }}
+              <article class="publication-archive__paper publication-archive__paper--year-{{ $yearTone }}">
+                <time datetime="{{ $paper.Date.Format "2006-01-02" }}">{{ $paper.Date.Format "2006" }}</time><div class="publication-archive__marker"></div>
+                <div class="publication-archive__paper-body">
+                  <h3><a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a></h3>
+                  {{ with $authors }}<p class="publication-archive__authors">{{ if le (len .) 3 }}{{ range $index, $author := . }}{{ if $index }}<span aria-hidden="true">·</span>{{ end }}{{ partial "publication-family-author.html" $author }}{{ end }}{{ else }}{{ partial "publication-family-author.html" (index . 0) }}<span aria-hidden="true">·</span><span class="publication-archive__more">+{{ sub (len .) 2 }}</span><span aria-hidden="true">·</span>{{ partial "publication-family-author.html" (index . (sub (len .) 1)) }}{{ end }}</p>{{ end }}
+                  <p class="publication-archive__venue">{{ with $paper.Params.publication_short }}{{ . }}{{ else }}{{ $paper.Params.publication }}{{ end }}</p>
+                  <p class="publication-archive__links"><a href="{{ $paper.RelPermalink }}">Details</a>{{ with $paper.Params.url_pdf }}{{ $pdf := . }}{{ if not (hasPrefix $pdf "http") }}{{ $pdf = printf "%s%s" $paper.RelPermalink $pdf }}{{ end }}<a href="{{ $pdf }}" target="_blank" rel="noopener">PDF</a>{{ end }}{{ with $paper.Params.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}</p>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </main>
+  </div>
+</div>
+<script>
+(() => {
+  const init = () => {
+    const archive = document.querySelector('[data-publication-archive]'); if (!archive) return;
+    const families = Array.from(archive.querySelectorAll('[data-publication-family]'), button => button.dataset.publicationFamily);
+    const current = () => { const value = new URLSearchParams(location.search).get('family'); return families.includes(value) ? value : families[0]; };
+    const render = () => { const family = current(); archive.querySelectorAll('[data-publication-panel]').forEach(panel => panel.hidden = panel.dataset.publicationPanel !== family); archive.querySelectorAll('[data-publication-family]').forEach(button => { const selected = button.dataset.publicationFamily === family; button.classList.toggle('is-selected', selected); button.setAttribute('aria-current', selected ? 'true' : 'false'); }); };
+    const select = family => { const url = new URL(location); url.searchParams.set('family', family); history.replaceState({}, '', url); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    archive.addEventListener('click', event => { const family = event.target.closest('[data-publication-family]'); if (family) select(family.dataset.publicationFamily); const move = event.target.closest('[data-publication-move]'); if (move) { const index = families.indexOf(current()); select(families[(index + Number(move.dataset.publicationMove) + families.length) % families.length]); } });
+    render();
+  }; if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true }); else init();
+})();
+</script>
+{{ end }}

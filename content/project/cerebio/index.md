@@ -1,6 +1,6 @@
 ---
 title: CEREBIO - Cerebelo y Oliva Inferior en tareas de adaptación sensori-motora.
-summary: Esta investigación ha sido financiada con cargo a la ayuda P18- FR-2378 concedida por la Consejería de Universidad, Investigación e Innovación de la Junta de Andalucía y por FEDER, Una manera de Hacer Europa.
+summary: CEREBIO is a regional Andalusian research project funded by the Regional Ministry of University, Research and Innovation and the European Regional Development Fund (P18-FR-2378).
 
 
 tags:
@@ -17,7 +17,7 @@ authors:
 external_link: ''
 
 image:
-  caption: Ilustración de las células, capas neuronales, conexiones y sitios de plasticity del controlador por par inspirado en el cerebelo. Para más información, ver (I. Abadía et al., Science Robotics, 2021).
+  caption: Illustration of the cells, neural layers, connections, and plasticity sites of the cerebellum-inspired paired controller. See I. Abadía et al., Science Robotics, 2021.
 #  focal_point: Smart
 
 #links:
@@ -38,12 +38,12 @@ url_video: ''
 slides: ''
 ---
 
-Investigadores principales: Eduardo Ros Vidal y Jesús Garrido Alcázar
+Principal investigators: Eduardo Ros Vidal and Jesús Garrido Alcázar.
 
-El proyecto CEREBIO se enmarca en los campos de la Neurociencia Computacional y la Neurorobótica. Los objetivos de estos campos van desde el entendimiento de los principios en los que se basa el funcionamiento del sistema nervioso y el desarrollo de nuevos tratamientos para patologías neurológicas hasta el desarrollo de nuevos modelos de arquitecturas computacionales, sistemas de aprendizaje automático, nuevos esquemas de control para robots, inteligencia artificial, etc.
+CEREBIO sits at the intersection of Computational Neuroscience and Neurorobotics. These fields seek to understand the principles that underlie nervous-system function and neurological disorders, while developing new computational architectures, machine-learning systems, robot-control strategies, and AI applications.
 
-Actualmente se desconocen en gran medida cuáles son los principios del procesamiento que nos facultan para gestionar información altamente multimodal y multidimensional. Es importante no tratar el cerebro como un órgano aislado del cuerpo, ya que su evolución y continua adaptación está dirigida por la integración sensori-motora en un entorno dinámico (la interacción con el entorno). Por ello en este proyecto abordaremos el estudio de sistemas neuronales en el marco de su operación en tareas concretas (“estudios experimentales de comportamiento o comportamentales”).
+The principles that allow the brain to manage highly multimodal and multidimensional information are still largely unknown. The brain must not be considered in isolation from the body: its evolution and continuous adaptation are guided by sensorimotor integration in a dynamic environment. CEREBIO therefore studies neural systems as they operate in concrete behavioural tasks.
 
-En este proyecto se adopta una metodología de modelado de centro nervioso novedosa donde se aborda el estudio subsistemas nerviosos empotrados o embebidos en tareas de control motor integrando el sistema neuronal con el cuerpo a accionar y la interacción cuerpo-entorno.
+The project adopts a novel neural-centre modelling methodology. It studies neural subsystems embedded in motor-control tasks by integrating the neural system with the body it controls and with body–environment interaction.
 
 ![Image alt](andalucia-logos.png)

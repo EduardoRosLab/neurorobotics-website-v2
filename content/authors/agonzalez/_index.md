@@ -48,6 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:alvarogr@ugr.es'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=cFGgnHUAAAAJ
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen

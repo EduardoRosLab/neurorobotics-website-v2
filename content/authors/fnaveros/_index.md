@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Francisco Naveros
+title: Francisco Naveros Arrabal
+slug: francisco-naveros
 
 # Username (this should match the folder name)
 authors:
@@ -14,11 +15,11 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Polytechnic University of Madrid
+  - name: Universidad Politécnica de Madrid
     url: 'https://portalcientifico.upm.es/es/ipublic/researcher/333147'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Associate Professor in the Department of Computer Systems Architecture and Technology at the Polytechnic University of Madrid.
+bio: Associate Professor in the Department of Architecture and Technology of Computer Systems at the Universidad Politécnica de Madrid.
 
 interests:
   - Cerebellum
@@ -50,9 +51,9 @@ social:
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?user=lyL3mVoAAAAJ
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.com/citations?user=of_RMWkAAAAJ&hl=es'
 #  - icon: github
 #    icon_pack: fab
 #    link: https://github.com/gcushen
@@ -68,10 +69,10 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Faculty
+  - Former Researchers
 ---
 
-I received my M.S in Telecomunication Engineering from the University of Granada (UGR), Spain in 2011. In December 2011 I officially joined to the UGR with a National Grant as a researcher of the European Project TOMSY. I also received my M.S. in Computer Architecture and Networks from the UGR in 2012. Finally, I received my Doctorate from the UGR in 2017 in Computational neuroscience. I am currently now an associate professor in the Department of Computer Systems Architecture and Technology at the Polytechnic University of Madrid.
+I received my M.S in Telecommunications Engineering from the University of Granada (UGR), Spain in 2011. In December 2011 I joined UGR as a researcher through a national grant for the European project TOMSY. I also received my M.S. in Computer Architecture and Networks from UGR in 2012 and my PhD in Computational Neuroscience from UGR in 2017. I am currently an Associate Professor in the Department of Architecture and Technology of Computer Systems at the Universidad Politécnica de Madrid (UPM), where I also serve as Deputy Director for Infrastructure and Planning at the School of Computer Engineering.
 
 From 2012 to 2014, I participated in an EU project related to adaptive learning mechanisms and bio-inspired control REALNET. From 2014 to the 2020, I participated in the Human Brain Project (HBP); a ten-year, large-scale European research initiative whose goal was to better understand the human brain and its diseases and ultimately to emulate its computational capabilities. In 2016 I moved to Dr. Arleo's lab in Paris for a period of six months. In 2020 I obtained a possition as assistant professor in the Polytechnique University of Madrid. In 2021 I moved to the Baylor College of Medicine (BCM), in Houston, Texas, US, with a Marie Skłodowska-Curie Action (MSCA) global fellowship. After the firsts two years of the project, I returned to the UGR, for a period of one year. In 2024 I returned to my position as assistant professor in the Polytechnic University of Madrid. In 2025 I obtained a position as permanent professor in the Polytechnique University of Madrid
 

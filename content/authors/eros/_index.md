@@ -19,6 +19,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Full professor in computer architecture, principal investigator at the Computational Neuroscience and Neurorobotics Lab and principal investigator of the VALERIA lab of the University of Granada.
+profile_is_pi: true
 
 interests:
   - Neuromorphic Engineering

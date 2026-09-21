@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Niceto Luque
+title: Niceto R. Luque
+slug: niceto-luque
 
 # Username (this should match the folder name)
 authors:
@@ -19,6 +20,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Associate Professor at the Department of Computer Engineering, Automation and Robotics and Principal Investigator at the Applied Computational Neuroscience Group.
+profile_is_pi: true
 
 interests:
   - Cerebellum
@@ -49,6 +51,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:nluque@ugr.es'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=Rsr9CQYAAAAJ
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen

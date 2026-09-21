@@ -10,21 +10,23 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral Researcher
+role: Neuroscientist & Data Engineer
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Granada
-    url: 'https://www.ugr.es/'
+  - name: DataJoint, United States
+    url: 'https://datajoint.com/team/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Postdoctoral Researcher at the Applied Computational Neuroscience Research Group at the University of Granada.
+bio: Neuroscientist and SciOps Engineer at DataJoint, developing research-data workflows for scalable discovery and trustworthy AI.
 
 interests:
   - Motor control
   - Learning
   - Robotics
   - Cerebellum
+  - Research Data Workflows
+  - Artificial Intelligence
 
 education:
   courses:
@@ -43,9 +45,6 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:mmarin@ugr.es'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -72,10 +71,6 @@ user_groups:
 
 ## Short bio
 
-I got a degree in Biochemistry (main track in Molecular Biomedicine) in 2015 and an MSc in Translational Research and Personalized Medicine in 2016, both at the University of Granada. I joined the Computational Neuroscience unit of Prof. Ros’ lab in 2016 at the Research Centre for Information and Communications Technologies of the University of Granada. My research in cerebellum started then, a field which this group has been studying for more than ten years. This jump has provided me with fast training in realistic modeling of neurons (based on electrophysiological experimental data analyses) and simplified (but efficient) neuronal models, and cerebellar theories of information processing. I also officially joined the Human Brain Project (HBP) at that time, which has enriched me thanks to its training programs in Computational Neuroscience, Biomedicine and Neurobotics platforms. I have participated in more than 10 professional activities (courses, conferences and workshops), most of which internationally related with this project. Currently, I am undertaking my PhD thesis within this lab.
+Milagros Marín, PhD is a neuroscientist and SciOps Engineer at DataJoint in the United States. She develops and promotes research-data workflows that support scalable discovery and trustworthy AI, drawing on her background in neuroscience, translational research, and biochemistry at the University of Granada.
 
-## Research interests
-
-My interdisciplinary value is located between Health and Biochemistry (Cerebellum, Molecular Biology, Biomedicine) and Information and Communication Technologies (Computational Neuroscience and Bioinformatics).
-
-Computational Neuroscience is a powerful tool in order to understand brain operations. The cerebellum is a smart centre of the nervous system involved in fine motor control and somatosensory processing. Despite its small size, about half of the brain cells are cerebellar granule neurons, which have their own intrinsic characteristics such as resonance, usually ignored in medium- and large- scale computational models. My research interest deals with cerebellum modeling at different levels of detail, ranging from computational primitives (behavioral models) to its neurobiological substrate (ionic channels modeling). I intend to represent a differential value when it comes to address detailed and simplified neuronal modeling of cerebellum and evaluate how the neuronal system processing capabilities are based on specific features of cerebellar neurons, adaptation mechanisms and neural network topologies.
+Her work includes multimodal neuroscience data integration and the engineering of reproducible, AI-ready research workflows. She is a former member of the Applied Computational Neuroscience Research Group.

@@ -19,6 +19,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: Associate Professor at the Department of Computer Engineering, Automation and Robotics and Principal Investigator at the Applied Computational Neuroscience Group.
+profile_is_pi: true
 
 interests:
   - Spiking neuronal network simulation

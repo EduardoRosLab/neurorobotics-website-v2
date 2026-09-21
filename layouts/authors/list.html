@@ -1,0 +1,17 @@
+{{- define "main" -}}
+{{ if not .File }}<div class="universal-wrapper pt-3"><h1>{{ .Title }}</h1></div>{{ end }}
+<section id="profile-page" class="pt-5"><div class="container">
+  {{ if .File }}{{ $widget := "blocks/v1/about.html" }}{{ $username := path.Base .File.Dir }}{{ partial $widget (dict "wcPage" $ "wcBlock" . "author" $username) }}{{ end }}
+  {{ $items := where .Pages ".IsNode" false }}{{ $papers := where $items "Section" "publication" }}{{ $projects := where $items "Section" "project" }}
+  {{ $paperLimit := 10 }}{{ if .Params.profile_is_pi }}{{ $paperLimit = 20 }}{{ end }}
+  {{ $recentPapers := first $paperLimit ($papers.ByDate.Reverse) }}{{ $recentProjects := $projects.ByDate.Reverse }}
+  {{ if or $recentPapers $recentProjects }}
+  <section class="profile-evidence content-widget-hr" aria-labelledby="profile-evidence-title">
+    <header class="profile-evidence__header"><h3 id="profile-evidence-title">Latest activity</h3></header>
+    <div class="profile-evidence__grid{{ if not .Params.profile_is_pi }} profile-evidence__grid--papers-only{{ end }}">
+      <section aria-labelledby="profile-papers-title"><div class="profile-evidence__label"><h4 id="profile-papers-title">Recent papers</h4><span>{{ len $recentPapers }}{{ if .Params.profile_is_pi }} of {{ len $papers }}{{ end }}</span></div><ol class="profile-evidence__list">{{ range $recentPapers }}<li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006" }}</time><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ol>{{ if gt (len $papers) (len $recentPapers) }}<a class="profile-evidence__more" href="{{ "/publication/" | relURL }}">View all publications →</a>{{ end }}</section>
+      {{ if .Params.profile_is_pi }}<section aria-labelledby="profile-projects-title"><div class="profile-evidence__label"><h4 id="profile-projects-title">Projects</h4><span>{{ len $recentProjects }}</span></div><ol class="profile-evidence__list">{{ range $recentProjects }}<li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006" }}</time><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ol>{{ if gt (len $recentProjects) 0 }}<a class="profile-evidence__more" href="{{ "/project/" | relURL }}">View all projects →</a>{{ end }}</section>{{ end }}
+    </div>
+  </section>{{ end }}
+</div></section>
+{{- end -}}

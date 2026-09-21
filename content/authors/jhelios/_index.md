@@ -68,7 +68,7 @@ user_groups:
   - PhD Students
 ---
 
- Juan Helios García is a PhD student at the [Department of Computer Engineering, Automation and Robotics](https://icar.ugr.es/) at [University of Granada](https://www.ugr.es) under the supervision of [Niceto Luque](https://acn.ugr.es/author/niceto-luque/) and [Eduardo Ros](https://acn.ugr.es/author/eduardo-ros/). He obtained a B.S in Computer Science in 2021 and a M.S in Data Science in 2022. After working for one year on a project related to time series analysis, he joined the Applied Computational Neuroscience Group in 2022 to work on the [IMOCO4.E project](https://www.imoco4e.eu/). In 2023, he started his PhD on motor primitives for faster motor learning.
+ Juan Helios García is a PhD student at the [Department of Computer Engineering, Automation and Robotics](https://icar.ugr.es/) at [University of Granada](https://www.ugr.es) under the supervision of [Niceto R. Luque](https://acn.ugr.es/author/niceto-luque/) and [Eduardo Ros](https://acn.ugr.es/author/eduardo-ros/). He obtained a B.S in Computer Science in 2021 and a M.S in Data Science in 2022. After working for one year on a project related to time series analysis, he joined the Applied Computational Neuroscience Group in 2022 to work on the [IMOCO4.E project](https://www.imoco4e.eu/). In 2023, he started his PhD on motor primitives for faster motor learning.
 
 
 Within the context of his doctoral studies, his research interests range from the development of infants to robotics learning and cognition. He believes that a better understanding of human cognition lies in the study of motor control in humans and animals, as well as its application in robots, using all the computer science tools that have been developed in the past decade. 

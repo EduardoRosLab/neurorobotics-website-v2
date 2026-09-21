@@ -1,6 +1,6 @@
 ---
 title: INTSENSO - Integración sensorimotora para control adaptativo mediante aprendizaje en cerebelo y centros nerviosos relacionados. Aplicación en robótica
-summary: Esta investigación ha sido financiada con cargo a la ayuda MICINN-FEDER-PID2019-109991GB-I00 concedida por el Ministerio de Ciencia e Innovación.
+summary: INTSENSO is a Spanish national research project funded by the Ministry of Science and Innovation through MICINN-FEDER-PID2019-109991GB-I00.
 
 tags:
   - Cerebellum
@@ -16,7 +16,7 @@ authors:
 external_link: ''
 
 image:
-  caption: Ilustración de la arquitectura de los ganglios basales y su interconexión con otros centros nerviosos relacionados. Para más información, ver (A. González et al., Int. J. Neural Syst., 2020).
+  caption: Illustration of the basal-ganglia architecture and its interconnection with related neural centres. See A. González et al., International Journal of Neural Systems, 2020.
 #  focal_point: Smart
 
 #links:
@@ -37,10 +37,10 @@ url_video: ''
 slides: ''
 ---
 
-Investigadores principales: Eduardo Ros Vidal y Jesús Garrido Alcázar
+Principal investigators: Eduardo Ros Vidal and Jesús Garrido Alcázar.
 
-El proyecto INTSENSO se enmarca en los campos de la Neurociencia Computacional y la Neurorobótica. Los objetivos de estos campos van desde el entendimiento de los principios en los que se basa el funcionamiento del sistema nervioso y el desarrollo de nuevos tratamientos para patologías neurológicas hasta el desarrollo de nuevos modelos de arquitecturas computacionales, sistemas de aprendizaje automático, nuevos esquemas de control para robots, inteligencia artificial, etc.
+INTSENSO sits at the intersection of Computational Neuroscience and Neurorobotics. These fields seek to understand the principles that underlie nervous-system function and neurological disorders, while developing new computational architectures, machine-learning systems, robot-control strategies, and AI applications.
 
-Actualmente se desconocen en gran medida cuáles son los principios del procesamiento que nos facultan para gestionar información altamente multimodal y multidimensional. El cerebelo es una parte del sistema nervioso cuya operación ha estado tradicionalmente muy ligada al control motor. No obstante, en los últimos años, diversos estudios han evidenciado que el cerebelo se encuentra en continua comunicación con otros centros nerviosos, tales como la corteza, los ganglios basales y la oliva inferior.
+The principles that allow the brain to manage highly multimodal and multidimensional information are still largely unknown. The cerebellum has traditionally been associated with motor control; however, recent studies show that it continuously communicates with other neural centres, including the cortex, basal ganglia, and inferior olive.
 
-El objetivo general de este proyecto es aumentar nuestro conocimiento en cómo el cerebelo y los centros nerviosos relacionados realiza de manera inteligente la integración sensorimotora a través de los mecanismos de adaptación (abstracción de la cinemática y dinámica del cuerpo que está siendo controlado).
+The project aims to deepen our understanding of how the cerebellum and related neural centres intelligently achieve sensorimotor integration through adaptive mechanisms that abstract the kinematics and dynamics of the body being controlled.

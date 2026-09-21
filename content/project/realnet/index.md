@@ -1,6 +1,6 @@
 ---
 title: REALNET - Realistic Real-Time Networks. Computation Dynamics in the Cerebellum
-summary: The REALNET project is a FET Proactive initiative aiming to build the first realistic cerebellar model that can run in real-time and be used for controlling robotic systems. Our group develops the software simulation tool (EDLUT) and the simplified (spiking point neurons) model of the cerebellum.
+summary: The REALNET project is a FET Proactive initiative aiming to build the first realistic cerebellar model that can run in real-time and be used for controlling robotic systems. Our group develops the software simulation tool (EDLUT) and the simplified (spiking point neurons) model of the cerebellum, with Jesús Garrido Alcázar and Niceto R. Luque in the research team.
 tags:
   - Cerebellum
   - Neurorobotics
@@ -9,6 +9,8 @@ date: '2015-02-17T10:57:53'
 
 authors:
   - eros
+  - jgarrido
+  - nluque
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

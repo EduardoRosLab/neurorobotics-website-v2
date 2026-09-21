@@ -1,0 +1,57 @@
+{{/*
+  Profile-level JCR metric panel.
+  A publication contributes only when its front matter contains a verified `jcr`
+  map. This prevents partial historical research from being presented as a
+  complete metric.
+*/}}
+{{ $author := .Get "author" }}
+{{ $papers := where site.RegularPages "Section" "publication" }}
+{{ $eligible := slice }}
+{{ $verified := slice }}
+{{ range $papers }}
+  {{ if in .Params.authors $author }}
+    {{ if in .Params.publication_types "article-journal" }}
+      {{ $eligible = $eligible | append . }}
+      {{ with .Params.jcr }}{{ if .verified }}{{ $verified = $verified | append . }}{{ end }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $q1 := 0 }}{{ $d1 := 0 }}{{ $top3 := 0 }}{{ $jifTotal := 0.0 }}
+{{ range $verified }}
+  {{ $record := . }}
+  {{ if $record.q1 }}{{ $q1 = add $q1 1 }}{{ end }}
+  {{ if $record.d1 }}{{ $d1 = add $d1 1 }}{{ end }}
+  {{ if $record.top3 }}{{ $top3 = add $top3 1 }}{{ end }}
+  {{ $jifTotal = add $jifTotal (float $record.jif) }}
+{{ end }}
+{{ $verifiedCount := len $verified }}
+<section class="jcr-metrics" aria-labelledby="jcr-metrics-title">
+  <div class="jcr-metrics__header">
+    <p>Publication quality indicators</p>
+    <h2 id="jcr-metrics-title">JCR metrics</h2>
+    <span>Best JCR category · publication-year JCR edition</span>
+  </div>
+  {{ if gt $verifiedCount 0 }}
+    <div class="jcr-metrics__grid">
+      <div><strong>{{ $q1 }}</strong><span>Q1</span><small>{{ lang.FormatPercent (div (float $q1) (float $verifiedCount)) 0 }} of {{ $verifiedCount }} verified</small></div>
+      <div><strong>{{ $d1 }}</strong><span>D1</span><small>{{ lang.FormatPercent (div (float $d1) (float $verifiedCount)) 0 }} of {{ $verifiedCount }} verified</small></div>
+      <div><strong>{{ $top3 }}</strong><span>Top 3</span><small>{{ lang.FormatPercent (div (float $top3) (float $verifiedCount)) 0 }} of {{ $verifiedCount }} verified</small></div>
+      <div><strong>{{ lang.FormatNumber 2 (div $jifTotal (float $verifiedCount)) }}</strong><span>Average JIF</span><small>Publication-year JIF</small></div>
+    </div>
+    {{ if lt $verifiedCount (len $eligible) }}<p class="jcr-metrics__coverage">{{ $verifiedCount }} of {{ len $eligible }} journal articles audited</p>{{ end }}
+  {{ else }}
+    <div class="jcr-metrics__pending"><strong>{{ len $eligible }} journal articles</strong><span>JCR audit in progress</span></div>
+  {{ end }}
+</section>
+<script>
+(() => {
+  const movePanel = () => {
+    const panel = document.querySelector('.jcr-metrics');
+    const profile = document.querySelector('#profile-page .row > .col-12.col-lg-4');
+    if (panel && profile && panel.parentElement !== profile) profile.append(panel);
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', movePanel, { once: true }); else movePanel();
+  window.setTimeout(movePanel, 150);
+  window.setTimeout(movePanel, 600);
+})();
+</script>

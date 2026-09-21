@@ -46,6 +46,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:iabadia@ugr.es'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=wL8tZywAAAAJ
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen

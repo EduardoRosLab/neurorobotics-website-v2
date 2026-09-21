@@ -1,6 +1,6 @@
 ---
 title: DLROB - Deep Learning for accurate movement of collaborative robotics
-summary: The DLROB project is a national Spanish project funded by the Spanish National Research Agency  DLROB (TED2021-630 131294B-I00) funded by MCIN/AEI/ 10.13039/501100011033 and by European Union NextGenerationEU/PRTR.This project focuses on proposing a cobot dynamic modelling methodology and subsequent cobot control that are to be learnt rather than calculated, i.e., data-driven vs. equation-driven modelling and control.
+summary: The DLROB project is a national Spanish project funded by the Spanish National Research Agency  DLROB (TED2021-630 131294B-I00) funded by MCIN/AEI/ 10.13039/501100011033 and by European Union NextGenerationEU/PRTR. Niceto R. Luque is Principal Investigator and Richard R. Carrillo is Co-Principal Investigator. This project focuses on proposing a cobot dynamic modelling methodology and subsequent cobot control that are to be learnt rather than calculated, i.e., data-driven vs. equation-driven modelling and control.
 
 tags:
   - Cobots
@@ -11,6 +11,7 @@ date: '2023-02-26T10:57:53'
 
 authors:
   - nluque
+  - rcarrillo
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
