@@ -62,7 +62,7 @@ image:
   preview_only: false
 
 # Associated Projects
-projects: ['trembleice', 'musclebot']
+projects: ['trembleice', 'musclebot', 'senscomp']
 
 slides: ''
 ---

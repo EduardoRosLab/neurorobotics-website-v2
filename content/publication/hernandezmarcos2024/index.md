@@ -40,6 +40,6 @@ url_video: ''
 image:
   caption: ''
 
-projects: []
+projects: ['senscomp']
 slides:
 ---
