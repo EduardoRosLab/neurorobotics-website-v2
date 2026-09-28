@@ -1,5 +1,5 @@
 ---
-title: "BRAINMOVE - Modelo Neuronal Sensorimotor para Control Adaptativo de Movimientos"
+title: "BRAINMOVE - Neural Sensorimotor Modelling for Adaptive Movement Control"
 summary: "BRAINMOVE is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033. The project investigates how the cerebellum, the basal ganglia and the hippocampus jointly support efficient, adaptive and safe motor control, and how these principles can be translated into machine-learning controllers for collaborative robots with complex, compliant dynamics."
 
 tags:
@@ -66,10 +66,6 @@ The project therefore studies:
 The central motivation of BRAINMOVE is to bridge these two worlds: on the one hand, to advance our understanding of the computational principles implemented by the cerebellum, the basal ganglia and the hippocampus in motor control; on the other, to translate these principles into bio-inspired learning architectures for the control of complex, compliant robots. A better understanding of plasticity dynamics, of how they are supported by the neurophysiological substrate, and of the construction of accurate models able to reproduce experimental results will also contribute to identifying dysfunctions associated with ageing or specific pathologies.
 
 All of this is addressed within the framework of sensorimotor control tasks, validated both with simulated experimental set-ups — such as the vestibulo-ocular reflex (VOR) — and on collaborative robotic platforms.
-
-![BRAINMOVE work plan: a technical development work package (WP0) providing the spiking and rate-based neural simulator and the interfaces with the experimental set-up and the robotic agents; WP1 and WP2 model the cerebellum with the locus coeruleus, and the basal ganglia with the hippocampus; and WP3 integrates the resulting networks into the control of cobot arm movements.](/project/brainmove/workplan.png)
-
-*Work plan: a technical development work package (WP0) provides the neural simulator and the interfaces with the experimental set-up and the robotic agents; WP1 and WP2 model the cerebellum together with the locus coeruleus, and the basal ganglia together with the hippocampus; WP3 integrates the resulting networks into the control of cobot arm movements.*
 
 ## Research team
 

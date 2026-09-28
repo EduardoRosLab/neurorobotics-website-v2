@@ -1,5 +1,5 @@
 ---
-title: "SENSCOMP - Simulación del sustrato computacional nervioso en el sistema sensori-motor. Mecanismos de adaptación y su integración en plataformas de experimentación"
+title: "SENSCOMP - Simulation of the neural computational substrate in the sensorimotor system. Adaptation mechanisms and their integration in experimental platforms"
 summary: "SENSCOMP is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033 and by the European Union through the FEDER programme. The project investigates how the cerebellum and the basal ganglia achieve efficient and precise control through their internal adaptation mechanisms, and integrates the resulting models into neural-simulation and neurorobotics platforms."
 
 tags:
