@@ -18,6 +18,10 @@ external_link: ''
 
 image:
   caption: Illustration of the cells, neural layers, connections, and plasticity sites of the cerebellum-inspired paired controller. See I. Abadía et al., Science Robotics, 2021.
+funding_banner:
+  text: "Project P18-FR-2378 funded by the Regional Ministry of University, Research and Innovation and the European Regional Development Fund."
+  logos: andalucia-logos.png
+  alt: "Official logos of the Junta de Andalucía, the European Union and the European Regional Development Fund"
 #  focal_point: Smart
 
 #links:

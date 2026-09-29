@@ -1,0 +1,10 @@
+{{- with .Params.funding_banner -}}
+  {{- $banner := . -}}
+  {{- $logos := $.Resources.GetMatch $banner.logos -}}
+  <div class="project-funding-banner" role="note" aria-label="Project funding acknowledgement">
+    {{ with $banner.text }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{ with $logos }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $banner.alt | default "Official funding logos" }}" loading="eager" fetchpriority="high">
+    {{ end }}
+  </div>
+{{- end -}}

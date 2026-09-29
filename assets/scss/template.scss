@@ -218,3 +218,44 @@
    away while the open menu list is left stranded with no visible container. Keep the
    header pinned in place for as long as the mobile menu is open. */
 .page-header:has(#navbar-content.show) { transform: translateY(0) !important; }
+
+// Optional grant-specific funding acknowledgement at the top of a project page.
+.project-funding-banner {
+  align-items: center;
+  border-bottom: 1px solid #dce5e8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.5rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 76rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.project-funding-banner p {
+  font-size: .95rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.project-funding-banner img {
+  display: block;
+  height: auto;
+  max-height: 4rem;
+  max-width: 24rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .project-funding-banner {
+    gap: .5rem;
+    padding: .75rem 1rem;
+  }
+
+  .project-funding-banner img {
+    max-width: 20rem;
+  }
+}

@@ -1,6 +1,6 @@
 ---
 title: "SENSCOMP - Simulation of the neural computational substrate in the sensorimotor system. Adaptation mechanisms and their integration in experimental platforms"
-summary: "SENSCOMP is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033 and by the European Union through the FEDER programme. The project investigates how the cerebellum and the basal ganglia achieve efficient and precise control through their internal adaptation mechanisms, and integrates the resulting models into neural-simulation and neurorobotics platforms."
+summary: "SENSCOMP is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033 and by FEDER, UE. The project investigates how the cerebellum and the basal ganglia achieve efficient and precise control through their internal adaptation mechanisms, and integrates the resulting models into neural-simulation and neurorobotics platforms."
 
 tags:
   - Computational neuroscience
@@ -41,6 +41,10 @@ external_link: ''
 
 image:
   caption: Cerebellar granular-layer microcircuitry —mossy fibres (MF), granule cells (GrC) and Golgi cells (GoC), with their excitatory and inhibitory connections—, the substrate whose adaptation mechanisms SENSCOMP models.
+funding_banner:
+  text: "Proyecto PID2022-140095NB-I00 financiado por:"
+  logos: aei-logos.jpg
+  alt: "Logotipos oficiales del MICIU, Cofinanciado por la Unión Europea y la AEI"
 ---
 
 Principal investigators: [Eduardo Ros Vidal]({{< relref "/authors/eros" >}}) and [Jesús Garrido Alcázar]({{< relref "/authors/jgarrido" >}}).
@@ -65,6 +69,6 @@ All of this is addressed within the framework of sensorimotor control tasks. The
 
 ## Funding
 
-The project PID2022-140095NB-I00 has been funded by MICIU/AEI/10.13039/501100011033 and by the European Union through the FEDER programme.
+Project PID2022-140095NB-I00 funded by MICIU/AEI/10.13039/501100011033 and by FEDER, UE.
 
 The project ran from 1 September 2023 to 31 August 2026.

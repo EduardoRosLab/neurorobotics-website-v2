@@ -1,6 +1,6 @@
 ---
 title: "BRAINMOVE - Neural Sensorimotor Modelling for Adaptive Movement Control"
-summary: "BRAINMOVE is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033. The project investigates how the cerebellum, the basal ganglia and the hippocampus jointly support efficient, adaptive and safe motor control, and how these principles can be translated into machine-learning controllers for collaborative robots with complex, compliant dynamics."
+summary: "BRAINMOVE is a Spanish national research project funded by MICIU/AEI/10.13039/501100011033 and by FEDER, UE. The project investigates how the cerebellum, the basal ganglia and the hippocampus jointly support efficient, adaptive and safe motor control, and how these principles can be translated into machine-learning controllers for collaborative robots with complex, compliant dynamics."
 
 tags:
   - Computational neuroscience
@@ -48,6 +48,10 @@ external_link: ''
 
 image:
   caption: "From neural circuit to robot — the BRAINMOVE pipeline: neural system simulation (cerebellum, basal ganglia and hippocampus), vestibulo-ocular-reflex and musculoskeletal models, and collaborative robot control."
+funding_banner:
+  text: "Proyecto PID2025-173671NB-I00 financiado por:"
+  logos: aei-logos.jpg
+  alt: "Logotipos oficiales del MICIU, Cofinanciado por la Unión Europea y la AEI"
 ---
 
 Principal investigators: [Eduardo Ros Vidal]({{< relref "/authors/eros" >}}) and [Jesús Garrido Alcázar]({{< relref "/authors/jgarrido" >}}).
@@ -77,6 +81,6 @@ All of this is addressed within the framework of sensorimotor control tasks, val
 
 ## Funding
 
-The project PID2025-173671NB-I00 is funded by MICIU/AEI/10.13039/501100011033 and by the European Union through the FEDER programme.
+The project PID2025-173671NB-I00 is funded by MICIU/AEI/10.13039/501100011033 and by FEDER, UE.
 
 The project runs from 1 September 2026 to 31 August 2029.
